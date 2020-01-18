@@ -1,6 +1,6 @@
 Name:           perl-File-Find-Rule-Perl
 Version:        1.13
-Release:        2%{?dist}
+Release:        1.3%{?dist}
 Summary:        Common rules for searching for Perl things
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -61,9 +61,6 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.13-2
-- Mass rebuild 2013-12-27
-
 * Mon Jul 22 2013 Petr Šabata <contyk@redhat.com> - 1.13-1.3
 - Removing an unnecessary build-time dependency
 - Fixing the description
